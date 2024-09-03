@@ -9,12 +9,11 @@ import pandas as pd
 #import csv
 
 #load_dotenv()
-hostname = "auditsa.com.mx"
-username = "multimedios"
-password = "M260L2t41M3d10$"
+hostname = ""
+username = ""
+password = ""
 port = 22
-local = "C:/Users/miguel.sanchez/Desktop/FTP-data-downloader-main/"
-
+local = ""
 
 # Suerclasbe para mejorar la velocidad de descarga
 class FastTransport(paramiko.Transport):
